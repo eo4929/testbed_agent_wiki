@@ -39,8 +39,9 @@ data format을 나타낸다.
  ## 2-1  ArraySchema
 Array를 나타내는 data schema. @type에 array라고 표시된다
 >items: array의 성질을 정의한다. DataSchema나 DataSchema의 Array
-
-예) "rgb": {
+예)
+~~~javascript
+"rgb": {
         "title": "RGB color value",
         "type": "array",
         "items" : {
@@ -51,14 +52,16 @@ Array를 나타내는 data schema. @type에 array라고 표시된다
         "minItems": 3,
         "maxItems": 3
     }
-
+~~~
 
  ## 2-2 ObjectSchema  
 Object를 나타내는 data schema. @type에 object라고 표시된다.
 > properties : data schema nested definitions, Map of DataShema  
 required: object의 어떤 변수들이 필수적(mandatory)인지를 정의함. Array of string
 
-예)"properties": {
+예)
+~~~javascript
+"properties": {
     "status": {
         "title": "Status",
         "type": "string",
@@ -81,8 +84,8 @@ required: object의 어떤 변수들이 필수적(mandatory)인지를 정의함.
         "minItems": 3,
         "maxItems": 3
     }
-},
- 
+}
+~~~
 
 
 # 3. HyperMedia Control 문법
