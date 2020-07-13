@@ -89,7 +89,7 @@ required: object의 어떤 변수들이 필수적(mandatory)인지를 정의함.
 Thing에서 사용되는 web link와 web from들을 표현한다. 
 ## 3-1 Form 
 form은 특정 operation을 실행시킬 수 있게 함, request method를 만들어서 submission target에게 보냄. 
->href**(필수)**: form의 submission target의 URI, anyURI
+>href **(필수)** : form의 submission target의 URI, anyURI
 op: 
 contenttype: media type에 따른 content 종류(text/plain 등)과, 잠재적인 인자(charset=utf-8 등)
 htv:methodName: http의 수행 operation을 결정 "GET", "PUT", "POST"
