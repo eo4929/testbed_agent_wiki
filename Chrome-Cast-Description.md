@@ -1,20 +1,14 @@
 ~~~javascrip
 {
-    "@context": [
-        "https://www.w3.org/2019/wot/td/v1",
-        { "saref": "https://w3id.org/saref#" }
-    ],
+    "@context":"https://www.w3.org/2019/wot/td/v1",
     "id": "urn:dev:ops:32473-WoTLamp-1234",
-    "title": "MyLampThing",
-    "@type": "saref:LightSwitch",
-    "securityDefinitions": {"basic_sc": {
-        "scheme": "basic",
-        "in": "header"
-    }},
+    "title": "ChromeCast",
+     "securityDefinitions": {
+        "basic_sc": {"scheme": "basic", "in":"header"}
+    },
     "security": ["basic_sc"],
     "properties": {
         "status": {
-            "@type": "saref:OnOffState",
             "type": "string",
             "forms": [{
                 "href": "https://mylamp.example.com/status"
@@ -22,20 +16,43 @@
         }
     },
     "actions": {
-        "toggle": {
-            "@type": "saref:ToggleCommand",
+        "start": {
+            "title": "start video file",
             "forms": [{
                 "href": "https://mylamp.example.com/toggle"
             }]
-        }
-    },
-    "events": {
-        "overheating": {
-            "data": {"type": "string"},
+        },
+       "pause": {
+            "title": "pause video",
+            "description": "pause current video."
             "forms": [{
-                "href": "https://mylamp.example.com/oh"
+                "href": "https://mylamp.example.com/pause"
             }]
-        }
+       },
+       "play": {
+            "title": "play video",
+            "description": "play current video."
+            "forms": [{
+                "href": "https://mylamp.example.com/play"
+            }]
+       },
+       "stop": {
+            "title": "stop video",
+            "description": "stop current video."
+            "forms": [{
+                "href": "https://mylamp.example.com/stop"
+            }]
+       },
+       "youtube": {
+            "title": "youtube video",
+            "description": "start new youtube video.",
+            "uriVariables": {
+                "video_id" : { "type": "string"},
+            }, 
+            "forms": [{
+                "href": "https://mylamp.example.com/youtube{?video_id}"
+            }]
+       },
     }
 }
 ~~~
