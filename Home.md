@@ -1,7 +1,7 @@
 ## 1. API Documents
 
 * Resource List
-  * [Examples](https://github.com/kaist-webeng/testbed-resource-controller/wiki/API-Doc-Examples)
+  * [Examples](https://github.com/kaist-webeng/testbed-resource-controller/wiki/%5BAPI%5D-Example)
 
   * Smart Blind
   * Hue Bulb
