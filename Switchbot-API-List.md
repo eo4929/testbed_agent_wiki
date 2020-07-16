@@ -5,7 +5,7 @@
 
 ## Properties
 
-* [Show bound user info]() : `GET` `/`
+* [Show bound user info](https://github.com/kaist-webeng/testbed-resource-controller/wiki/%5BAPI%5D-Show-bound-user-info) : `GET` `/`
 * [Show resource info]() : `GET` `/resource`
 
 ## Actions
