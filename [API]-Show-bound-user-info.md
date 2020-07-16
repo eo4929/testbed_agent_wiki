@@ -27,9 +27,9 @@ curl http://143.248.41.159:5000/
 ```
 ***
 #### 400 Other Errors
-* `Message`: `String`, 에러에 대한 메세지
+* `errorMessage`: `String`, 에러에 대한 메세지
 ```json
     {
-      "Message": "Actuation failed. | No one bound. | Invalid action."
+      "errorMessage": "Actuation failed. | No one bound. | Invalid action."
     }
 ```
