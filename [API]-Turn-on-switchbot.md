@@ -13,6 +13,11 @@
 
 **Parameters**: `None`
 
+```
+curl http://143.248.41.159:5000/resource/turnon \
+--header "USER-ID: {UserId}"
+```
+
 ## Response
 
 #### 200 Success Resposne
