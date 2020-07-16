@@ -1,4 +1,4 @@
-> API에 대한 간략한 설명이 들어간다.
+> API에 대한 간략한 설명
  
 ## Request
 
@@ -29,15 +29,52 @@
 * Body (json)
   * e.g.,
 
-    `json-param0`: `String`, 바디에 json으로 넣은 파라매터0
+    `JsonParamA`: `String`, 바디에 json으로 넣은 파라매터 A
 
-    `json-param1`: `Array`, 바디에 json으로 넣은 파라매터1
+    `JsonParamB`: `Array`, 바디에 json으로 넣은 파라매터 B
     ```json
     {
-      "json-param0": "json-pram0 in HTTP Request Body",
-      "json-param1": ["json-param1", "in", "HTTP", "Request", "Body"]
+      "JsonParamA": "JsonParamA in HTTP Request Body",
+      "JsonParamB": ["JsonParamB", "in", "HTTP", "Request", "Body"]
     }
     ```
 
 ## Response
 
+**e.g.,**
+***
+#### 200 Success Resposne
+`ResponseDataA`: `String`, 응답 결과에 포함된 데이터 A에 대한 설명
+
+`ResponseDataB`: `Array`, 응답 결과에 포함된 데이터 B에 대한 설명
+```json
+    {
+      "ResponseDataA": "Response Data A in response body",
+      "ResponseDataB": ["Response", "Data", "B"]
+    }
+```
+***
+#### 404 Resource Not Found
+`Message`: `String`, 에러에 대한 메세지
+```json
+    {
+      "Message": "Resource Not Found."
+    }
+```
+***
+#### 401 Authentication Error
+`Message`: `String`, 에러에 대한 메세지
+```json
+    {
+      "Message": "Authentication Error."
+    }
+```
+***
+#### 500 Internal Server Error
+`Message`: `String`, 에러에 대한 메세지
+```json
+    {
+      "Message": "Internal Server Error."
+    }
+```
+***
