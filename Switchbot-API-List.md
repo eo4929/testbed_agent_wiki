@@ -1,7 +1,7 @@
 ## User Bindings
 
-* [Bind resource](): `POST` `/user/bind`
-* [Unbind resource](): `POST` `/user/unbind`
+* [Bind resource](https://github.com/kaist-webeng/testbed-resource-controller/wiki/%5BAPI%5D-bind-resource): `POST` `/user/bind`
+* [Unbind resource](https://github.com/kaist-webeng/testbed-resource-controller/wiki/%5BAPI%5D-Unbind-resource): `POST` `/user/unbind`
 
 ## Properties
 
