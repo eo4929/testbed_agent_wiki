@@ -10,7 +10,7 @@
 
 ## Actions
 
-* [Turn on switchbot]() : `POST` `/resource/turnon`
-* [Turn off switchbot](https://github.com/kaist-webeng/testbed-resource-controller/wiki/%5BAPI%5D-Turn-on-switchbot) : `POST` `/resource/turnoff`
+* [Turn on switchbot](https://github.com/kaist-webeng/testbed-resource-controller/wiki/%5BAPI%5D-Turn-on-switchbot) : `POST` `/resource/turnon`
+* [Turn off switchbot]() : `POST` `/resource/turnoff`
 
 ## Events
