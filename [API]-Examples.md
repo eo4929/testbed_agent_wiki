@@ -29,13 +29,13 @@
 * Body (json)
   * e.g.,
 
-    `JsonParamA`: `String`, 바디에 json으로 넣은 파라매터 A
+    `jsonParamA`: `String`, 바디에 json으로 넣은 파라매터 A
 
-    `JsonParamB`: `Array`, 바디에 json으로 넣은 파라매터 B
+    `jsonParamB`: `Array`, 바디에 json으로 넣은 파라매터 B
     ```json
     {
-      "JsonParamA": "JsonParamA in HTTP Request Body",
-      "JsonParamB": ["JsonParamB", "in", "HTTP", "Request", "Body"]
+      "jsonParamA": "jsonParamA in HTTP Request Body",
+      "jsonParamB": ["jsonParamB", "in", "HTTP", "Request", "Body"]
     }
     ```
 
@@ -44,37 +44,37 @@
 **e.g.,**
 ***
 #### 200 Success Resposne
-`ResponseDataA`: `String`, 응답 결과에 포함된 데이터 A에 대한 설명
+`responseDataA`: `String`, 응답 결과에 포함된 데이터 A에 대한 설명
 
-`ResponseDataB`: `Array`, 응답 결과에 포함된 데이터 B에 대한 설명
+`responseDataB`: `Array`, 응답 결과에 포함된 데이터 B에 대한 설명
 ```json
     {
-      "ResponseDataA": "Response Data A in response body",
-      "ResponseDataB": ["Response", "Data", "B"]
+      "responseDataA": "response Data A in response body",
+      "responseDataB": ["response", "Data", "B"]
     }
 ```
 ***
 #### 404 Resource Not Found
-`Message`: `String`, 에러에 대한 메세지
+`errorMessage`: `String`, 에러에 대한 메세지
 ```json
     {
-      "Message": "Resource Not Found."
+      "errorMessage": "Resource Not Found."
     }
 ```
 ***
 #### 401 Authentication Error
-`Message`: `String`, 에러에 대한 메세지
+`errorMessage`: `String`, 에러에 대한 메세지
 ```json
     {
-      "Message": "Authentication Error."
+      "errorMessage": "Authentication Error."
     }
 ```
 ***
 #### 500 Internal Server Error
-`Message`: `String`, 에러에 대한 메세지
+`errorMessage`: `String`, 에러에 대한 메세지
 ```json
     {
-      "Message": "Internal Server Error."
+      "errorMessage": "Internal Server Error."
     }
 ```
 ***
