@@ -2,17 +2,17 @@
  
 ## Request
 
-**Method**: `POST`
+**Method**: `GET` `POST` `PUT` `DELETE`
 
 **URL**: `/api/v0/examples/{path-param}?{query-param}`
 
-**Auth**: `Required`
+**Auth**: `Required` `None`
 
 * Header
   * `<Key>: <Value Type>, <Description>`
   * e.g., `auth-token`: `String`, 인증 토큰
 
-**Parameters**
+**Parameters**: `Required` `None`
 
 * Path
   * `<Key>: <Value Type>, <Description>`
@@ -41,7 +41,7 @@
 
 ## Response
 
-**e.g.,**
+e.g.,
 ***
 #### 200 Success Resposne
 * `responseDataA`: `String`, 응답 결과에 포함된 데이터 A에 대한 설명
