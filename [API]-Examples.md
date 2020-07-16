@@ -44,9 +44,8 @@
 **e.g.,**
 ***
 #### 200 Success Resposne
-`responseDataA`: `String`, 응답 결과에 포함된 데이터 A에 대한 설명
-
-`responseDataB`: `Array`, 응답 결과에 포함된 데이터 B에 대한 설명
+* `responseDataA`: `String`, 응답 결과에 포함된 데이터 A에 대한 설명
+* `responseDataB`: `Array`, 응답 결과에 포함된 데이터 B에 대한 설명
 ```json
     {
       "responseDataA": "response Data A in response body",
@@ -55,7 +54,7 @@
 ```
 ***
 #### 404 Resource Not Found
-`errorMessage`: `String`, 에러에 대한 메세지
+* `errorMessage`: `String`, 에러에 대한 메세지
 ```json
     {
       "errorMessage": "Resource Not Found."
@@ -63,7 +62,7 @@
 ```
 ***
 #### 401 Authentication Error
-`errorMessage`: `String`, 에러에 대한 메세지
+* `errorMessage`: `String`, 에러에 대한 메세지
 ```json
     {
       "errorMessage": "Authentication Error."
@@ -71,7 +70,7 @@
 ```
 ***
 #### 500 Internal Server Error
-`errorMessage`: `String`, 에러에 대한 메세지
+* `errorMessage`: `String`, 에러에 대한 메세지
 ```json
     {
       "errorMessage": "Internal Server Error."
