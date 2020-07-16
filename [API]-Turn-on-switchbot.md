@@ -16,36 +16,38 @@
 ## Response
 
 #### 200 Success Resposne
-`ResponseDataA`: `String`, 응답 결과에 포함된 데이터 A에 대한 설명
-
-`ResponseDataB`: `Array`, 응답 결과에 포함된 데이터 B에 대한 설명
+`status`: `String`, 스위치 on/off 여부
 ```json
     {
-      "ResponseDataA": "Response Data A in response body",
-      "ResponseDataB": ["Response", "Data", "B"]
+      "status": "on"
+    }
+```
+```json
+    {
+      "status": "off"
     }
 ```
 ***
-#### 404 Resource Not Found
+#### 401 User ID not authenticated
 `Message`: `String`, 에러에 대한 메세지
 ```json
     {
-      "Message": "Resource Not Found."
+      "Message": "User ID not authenticated."
     }
 ```
 ***
-#### 401 Authentication Error
+#### 409 Resource bound to another user
 `Message`: `String`, 에러에 대한 메세지
 ```json
     {
-      "Message": "Authentication Error."
+      "Message": "Resource bound to another user."
     }
 ```
 ***
-#### 500 Internal Server Error
+#### 400 Other Errors
 `Message`: `String`, 에러에 대한 메세지
 ```json
     {
-      "Message": "Internal Server Error."
+      "Message": "Actuation failed. | No one bound. | Invalid action."
     }
 ```
