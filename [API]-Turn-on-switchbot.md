@@ -27,11 +27,6 @@ curl http://143.248.41.159:5000/resource/turnon \
       "status": "on"
     }
 ```
-```json
-    {
-      "status": "off"
-    }
-```
 ***
 #### 401 User ID not authenticated
 `Message`: `String`, 에러에 대한 메세지
