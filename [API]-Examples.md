@@ -10,7 +10,7 @@
 
 * Header
   * `<Key>: <Value Type>, <Description>`
-  * e.g., `auth-token`: `Integer`, 인증 토큰
+  * e.g., `auth-token`: `String`, 인증 토큰
 
 **Parameters**
 
