@@ -4,7 +4,7 @@
   * Hue Bulb
   * Chrome Cast
   * Air Purifier
-  * [Switchbot]()
+  * [Switchbot](https://github.com/kaist-webeng/testbed-resource-controller/wiki/Switchbot-API-List)
 
 ## 2. Web of Things (WoT) Thing Description
 
