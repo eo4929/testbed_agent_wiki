@@ -29,25 +29,25 @@ curl http://143.248.41.159:5000/resource/turnoff \
 ```
 ***
 #### 401 User ID not authenticated
-* `Message`: `String`, 에러에 대한 메세지
+* `errorMessage`: `String`, 에러에 대한 메세지
 ```json
     {
-      "Message": "User ID not authenticated."
+      "errorMessage": "User ID not authenticated."
     }
 ```
 ***
 #### 409 Resource bound to another user
-* `Message`: `String`, 에러에 대한 메세지
+* `errorMessage`: `String`, 에러에 대한 메세지
 ```json
     {
-      "Message": "Resource bound to another user."
+      "errorMessage": "Resource bound to another user."
     }
 ```
 ***
 #### 400 Other Errors
-* `Message`: `String`, 에러에 대한 메세지
+* `errorMessage`: `String`, 에러에 대한 메세지
 ```json
     {
-      "Message": "Actuation failed. | No one bound. | Invalid action."
+      "errorMessage": "Actuation failed. | No one bound. | Invalid action."
     }
 ```
