@@ -14,3 +14,5 @@
 * [Turn off switchbot](https://github.com/kaist-webeng/testbed-resource-controller/wiki/%5BAPI%5D-Turn-off-switchbot) : `POST` `/resource/turnoff`
 
 ## Events
+
+* None
