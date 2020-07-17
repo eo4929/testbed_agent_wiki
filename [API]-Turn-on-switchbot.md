@@ -29,26 +29,42 @@ curl -X POST http://143.248.41.159:5000/resource/turnon \
     }
 ```
 ***
-#### 401 User ID not authenticated
-* `errorMessage`: `String`, 에러에 대한 메세지
+#### 401 Authentication Failed
+`errorMessage`: `String`, 에러에 대한 메세지
 ```json
     {
-      "errorMessage": "User ID not authenticated."
+      "errorMessage": "Authentication Failed."
+    }
+```
+***
+#### 401 Resource not bound
+`errorMessage`: `String`, 에러에 대한 메세지
+```json
+    {
+      "errorMessage": "Resource not bound."
     }
 ```
 ***
 #### 409 Resource bound to another user
-* `errorMessage`: `String`, 에러에 대한 메세지
+`errorMessage`: `String`, 에러에 대한 메세지
 ```json
     {
       "errorMessage": "Resource bound to another user."
     }
 ```
 ***
-#### 400 Other Errors
-* `errorMessage`: `String`, 에러에 대한 메세지
+#### 400 Invalid action
+`errorMessage`: `String`, 에러에 대한 메세지
 ```json
     {
-      "errorMessage": "Actuation failed. | No one bound. | Invalid action."
+      "errorMessage": "Invalid action."
+    }
+```
+***
+#### 400 Actuation failed
+`errorMessage`: `String`, 에러에 대한 메세지
+```json
+    {
+      "errorMessage": "Actuation failed."
     }
 ```
