@@ -15,7 +15,7 @@
 
 **Samples**:
 ```
-curl http://143.248.41.159:5000/user/bind \
+curl -X POST http://143.248.41.159:5000/user/bind \
 --header "USER-ID: {UserId}"
 ```
 
