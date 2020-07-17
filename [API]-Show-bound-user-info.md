@@ -23,7 +23,7 @@ curl -X GET http://143.248.41.159:5000/
 ```json
     {
       "bound": 1,
-      "userID": "213",
+      "userId": "213",
     }
 ```
 ***
