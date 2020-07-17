@@ -27,11 +27,13 @@
   * e.g., `form-param`: `String`, 바디에 쿼리로 넣은 파라매터 
 
 * Body (json)
-  * e.g.,
-
-    `jsonParamA`: `String`, 바디에 json으로 넣은 파라매터 A
-
-    `jsonParamB`: `Array`, 바디에 json으로 넣은 파라매터 B
+  * Header
+    * `Content-Type: application/json`
+  * Body
+    * `<Key>: <Value Type>, <Description>` & `json schema`
+    * e.g.,
+    * `jsonParamA`: `String`, 바디에 json으로 넣은 파라매터 A
+    * `jsonParamB`: `Array`, 바디에 json으로 넣은 파라매터 B
     ```json
     {
       "jsonParamA": "jsonParamA in HTTP Request Body",
@@ -40,8 +42,8 @@
     ```
 
 ## Response
+* `<Key>: <Value Type>, <Description>` & `json schema`
 
-e.g.,
 ***
 #### 200 Success Resposne
 * `responseDataA`: `String`, 응답 결과에 포함된 데이터 A에 대한 설명
