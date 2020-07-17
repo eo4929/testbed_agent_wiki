@@ -25,7 +25,7 @@ curl -X POST http://143.248.41.159:5000/user/bind \
 `userID`: `String`, Bound 된 사용자 ID
 ```json
     {
-      "userID": "13"
+      "userId": "13"
     }
 ```
 ***
