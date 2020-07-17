@@ -26,11 +26,3 @@ curl -X GET http://143.248.41.159:5000/
       "userId": "213",
     }
 ```
-***
-#### 400 Other Errors
-* `errorMessage`: `String`, 에러에 대한 메세지
-```json
-    {
-      "errorMessage": "Actuation failed. | No one bound. | Invalid action."
-    }
-```
