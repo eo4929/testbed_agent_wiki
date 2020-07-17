@@ -1,4 +1,4 @@
-> 사용자가 리소스를 사용하기 위해 bind 한다.
+> 리소스를 요청한 사용자에게 bind 한다.
 
 ## Request
 
@@ -29,11 +29,11 @@ curl -X POST http://143.248.41.159:5000/user/bind \
     }
 ```
 ***
-#### 401 User ID not authenticated
+#### 401 Authentication Failed
 `errorMessage`: `String`, 에러에 대한 메세지
 ```json
     {
-      "errorMessage": "User ID not authenticated."
+      "errorMessage": "Authentication Failed."
     }
 ```
 ***
@@ -42,13 +42,5 @@ curl -X POST http://143.248.41.159:5000/user/bind \
 ```json
     {
       "errorMessage": "Resource bound to another user."
-    }
-```
-***
-#### 400 Other Errors
-`errorMessage`: `String`, 에러에 대한 메세지
-```json
-    {
-      "errorMessage": "Invalid action."
     }
 ```
