@@ -1,4 +1,4 @@
-> 사용자가 리소스 사용을 완료하고 unbind 한다.
+> 현재 리소스에 bound 된 사용자를 unbind 한다.
 
 ## Request
 
@@ -29,11 +29,19 @@ curl -X POST http://143.248.41.159:5000/user/unbind \
     }
 ```
 ***
-#### 401 User ID not authenticated
+#### 401 Authentication Failed
 `errorMessage`: `String`, 에러에 대한 메세지
 ```json
     {
-      "errorMessage": "User ID not authenticated."
+      "errorMessage": "Authentication Failed."
+    }
+```
+***
+#### 401 Resource not bound
+`errorMessage`: `String`, 에러에 대한 메세지
+```json
+    {
+      "errorMessage": "Resource not bound."
     }
 ```
 ***
@@ -42,13 +50,5 @@ curl -X POST http://143.248.41.159:5000/user/unbind \
 ```json
     {
       "errorMessage": "Resource bound to another user."
-    }
-```
-***
-#### 400 Other Errors
-`errorMessage`: `String`, 에러에 대한 메세지
-```json
-    {
-      "errorMessage": "No one bound. | Invalid action."
     }
 ```
