@@ -10,6 +10,7 @@
 
 **Parameters**: `None`
 
+**Samples**:
 ```
 curl http://143.248.41.159:5000/
 ```
