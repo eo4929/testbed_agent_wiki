@@ -1,6 +1,6 @@
 ## 1. API Documents
 
-* [Examples](https://github.com/kaist-webeng/testbed-resource-controller/wiki/%5BAPI%5D-Examples)
+* [Guidelines](https://github.com/kaist-webeng/testbed-resource-controller/wiki/%5BAPI%5D-Guidelines)
 
 * Resource List
 
