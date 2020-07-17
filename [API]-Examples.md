@@ -10,28 +10,36 @@
 
 * Header
   * `<Key>: <Value Type>, <Description>`
-  * e.g., `auth-token`: `String`, 인증 토큰
+  ***
+  * `auth-token`: `String`, 인증 토큰
+  ***
 
 **Parameters**: `Required` `None`
 
 * Path
   * `<Key>: <Value Type>, <Description>`
-  * e.g., `path-param`: `String`, 경로에 넣은 파라매터
+  ***
+  * `path-param`: `String`, 경로에 넣은 파라매터
+  ***
 
 * Query
   * `<Key>: <Value Type>, <Description>`
-  * e.g., `query-param`: `Integer`, 경로 뒤에 쿼리로 넣은 파라매터 
+  ***
+  * `query-param`: `Integer`, 경로 뒤에 쿼리로 넣은 파라매터 
+  ***
 
 * Body (form)
   * `<Key>: <Value Type>, <Description>`
-  * e.g., `form-param`: `String`, 바디에 쿼리로 넣은 파라매터 
+  ***
+  * `form-param`: `String`, 바디에 쿼리로 넣은 파라매터
+  ***
 
 * Body (json)
   * Header
     * `Content-Type: application/json`
   * Body
     * `<Key>: <Value Type>, <Description>` & `json schema`
-    * e.g.,
+    ***
     * `jsonParamA`: `String`, 바디에 json으로 넣은 파라매터 A
     * `jsonParamB`: `Array`, 바디에 json으로 넣은 파라매터 B
     ```json
@@ -40,6 +48,7 @@
       "jsonParamB": ["jsonParamB", "in", "HTTP", "Request", "Body"]
     }
     ```
+    ***
 
 ## Response
 * `<Key>: <Value Type>, <Description>` & `json schema`
