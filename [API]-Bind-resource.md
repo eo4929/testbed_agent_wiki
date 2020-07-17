@@ -44,3 +44,11 @@ curl -X POST http://143.248.41.159:5000/user/bind \
       "errorMessage": "Resource bound to another user."
     }
 ```
+***
+#### 400 Invalid action
+`errorMessage`: `String`, 에러에 대한 메세지
+```json
+    {
+      "errorMessage": "Invalid action."
+    }
+```
