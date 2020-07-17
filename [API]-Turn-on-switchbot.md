@@ -15,7 +15,7 @@
 
 **Samples**:
 ```
-curl http://143.248.41.159:5000/resource/turnon \
+curl -X POST http://143.248.41.159:5000/resource/turnon \
 --header "USER-ID: {UserId}"
 ```
 
