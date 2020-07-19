@@ -18,7 +18,7 @@ curl -X GET http://143.248.41.159:5000/
 ## Response
 
 #### 200 Success Resposne
-* `bound`: `Integer`, bound:1, unbound:2
+* `bound`: `Integer`, bound:1, unbound:0
 * `userID`: `String`, 사용자 ID
 ```json
     {
