@@ -4,7 +4,7 @@
 
 **Method**: `POST`
 
-**URL**: `/resource/turnoff`
+**URL**: `/resource/off`
 
 **Auth**: `Required`
 
