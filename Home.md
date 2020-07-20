@@ -18,3 +18,4 @@
 ## Meeting logs
 
 - [2020.07.13](https://github.com/kaist-webeng/testbed-resource-controller/wiki/2020.07.13-Meeting-logs)
+- [2020.07.20](https://github.com/kaist-webeng/testbed-resource-controller/wiki/2020.07.20-Meeting-logs)
