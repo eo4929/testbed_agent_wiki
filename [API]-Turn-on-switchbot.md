@@ -4,7 +4,7 @@
 
 **Method**: `POST`
 
-**URL**: `/resource/turnon`
+**URL**: `/resource/on`
 
 **Auth**: `Required`
 
