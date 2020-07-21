@@ -54,7 +54,7 @@
 * `<Key>: <Value Type>, <Description>` & `json schema`
 
 ***
-#### 200 Success Resposne
+#### 200 Success Response
 * `responseDataA`: `String`, 응답 결과에 포함된 데이터 A에 대한 설명
 * `responseDataB`: `Array`, 응답 결과에 포함된 데이터 B에 대한 설명
 ```json
