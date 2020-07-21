@@ -4,7 +4,7 @@
 
 * Resource List
 
-  * Smart Blind
+  * [Smart Blind](https://github.com/kaist-webeng/testbed-resource-controller/wiki/%5BAPI-List%5D-Smart-Blind)
   * Hue Bulb
   * Chrome Cast
   * Air Purifier
