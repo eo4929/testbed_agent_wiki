@@ -13,7 +13,7 @@
 * [Open the blind](https://github.com/kaist-webeng/testbed-resource-controller/wiki/%5BAPI%5D-Open-the-blind) : `POST` `/resource/open`
 * [Close the blind](https://github.com/kaist-webeng/testbed-resource-controller/wiki/%5BAPI%5D-Close-the-blind) : `POST` `/resource/close`
 * [Stop the current blind action](https://github.com/kaist-webeng/testbed-resource-controller/wiki/%5BAPI%5D-Stop-the-current-blind-action) : `POST` `/resource/stop`
-* [Set position of the blind]() : `POST` `/resource/position`
+* [Set position of the blind](https://github.com/kaist-webeng/testbed-resource-controller/wiki/%5BAPI%5D-Set-position-of-the-blind) : `POST` `/resource/position`
 
 ## Events
 
