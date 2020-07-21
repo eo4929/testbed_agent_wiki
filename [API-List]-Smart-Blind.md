@@ -6,7 +6,7 @@
 ## Properties
 
 * [Show bound user info](https://github.com/kaist-webeng/testbed-resource-controller/wiki/%5BAPI%5D-Show-bound-user-info) : `GET` `/`
-* [Check the blind status]() : `GET` `/resource`
+* [Check the blind status](https://github.com/kaist-webeng/testbed-resource-controller/wiki/%5BAPI%5D-Check-the-blind-status) : `GET` `/resource`
 
 ## Actions
 
