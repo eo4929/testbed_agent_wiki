@@ -73,7 +73,8 @@ curl -X POST http://143.248.49.87:8000/resource/position \
     {
       "errorMessage": "The position value should be provided."
     }
-```***
+```
+***
 #### 400 The position value should be 0-100.
 `errorMessage`: `String`, 에러에 대한 메세지
 ```json
