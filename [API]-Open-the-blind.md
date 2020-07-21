@@ -26,7 +26,8 @@ curl -X POST http://143.248.49.87:8000/resource/open \
 * `status`: `String`, 실행 여부 ("success" - 성공)
 ```json
     {
-      "status": "on"
+      "action": "open",
+      "status": "success"
     }
 ```
 ***
