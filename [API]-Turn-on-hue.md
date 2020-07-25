@@ -23,7 +23,7 @@ curl -X POST http://143.248.41.159:5000/resource/on \
 
 #### 200 Success Response
 `String`, 스위치 on 성공여부에 대한 메시지
-```json
+```
     "[{\"success\":{\"/lights/2/state/on\":true}},{\"success\":{\"/lights/2/state/hue\":10000}},{\"success\":{\"/lights/2/state/sat\":254}},{\"success\":{\"/lights/2/state/bri\":254}}]"
 ```
 ***
