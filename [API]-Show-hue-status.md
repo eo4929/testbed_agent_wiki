@@ -1,4 +1,4 @@
-> 현재 리소스의 bound 여부와 bound된 사용자의 ID를 반환한다. 
+> 현재 hue 리소스의 status를 반환한다. 
 
 ## Request
 
