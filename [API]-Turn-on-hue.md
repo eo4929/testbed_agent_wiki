@@ -1,4 +1,4 @@
-> Switchbot을 Turn on한다. 이미 Turn on된 상태에서도 동작한다.
+> hue을 on시킨다.
 
 ## Request
 
