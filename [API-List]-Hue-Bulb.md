@@ -10,7 +10,7 @@
 
 ## Actions
 
-* [Turn on hue](  ) : `POST` `/resource/on`
+* [Turn on hue](https://github.com/kaist-webeng/testbed-resource-controller/wiki/%5BAPI%5D-Turn-on-hue) : `POST` `/resource/on`
 * [Turn off hue](  ) : `POST` `/resource/off`
 
 ## Events
