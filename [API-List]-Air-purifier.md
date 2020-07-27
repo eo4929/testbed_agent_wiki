@@ -11,7 +11,7 @@
 ## Actions
 
 * [Turn on air purifier](https://github.com/kaist-webeng/testbed-resource-controller/wiki/%5BAPI%5D-Turn-on-air-purifier) : `POST` `/resource/on`
-* [Turn off air purifier]() : `POST` `/resource/off`
+* [Turn off air purifier](https://github.com/kaist-webeng/testbed-resource-controller/wiki/%5BAPI%5D-Turn-off-air-purifier) : `POST` `/resource/off`
 
 ## Events
 
