@@ -15,7 +15,7 @@
 
 **Samples**:
 ```
-curl -X POST http://143.248.41.159:5000/user/unbind \
+curl -X POST http://143.248.41.159:8000/user/unbind \
 --header "USER-ID: {UserId}"
 ```
 
