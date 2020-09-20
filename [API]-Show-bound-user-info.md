@@ -12,7 +12,7 @@
 
 **Samples**:
 ```
-curl -X GET http://143.248.41.159:8000/
+curl -X GET http://143.248.41.173:8000/
 ```
 
 ## Response
