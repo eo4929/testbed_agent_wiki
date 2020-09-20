@@ -15,7 +15,7 @@
 
 **Samples**:
 ```
-curl -X POST http://143.248.41.159:8000/resource/on \
+curl -X POST http://143.248.41.173:8000/resource/on \
 --header "USER-ID: {UserId}"
 ```
 
