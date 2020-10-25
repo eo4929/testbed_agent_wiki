@@ -10,9 +10,9 @@
 
 ## Actions
 
-* [Play the current video](https://github.com/kaist-webeng/testbed-resource-controller/wiki/%5BAPI%5D-Play-the-video) : `POST` `/resource/play`
-* [Pause the current video](https://github.com/kaist-webeng/testbed-resource-controller/wiki/%5BAPI%5D-Pause-the-video) : `POST` `/resource/pause`
-* [Stop the current video](https://github.com/kaist-webeng/testbed-resource-controller/wiki/%5BAPI%5D-Stop-the-video) : `POST` `/resource/stop`
+* [Play the current video](https://github.com/kaist-webeng/testbed-resource-controller/wiki/%5BAPI%5D-Play-the-current-video) : `POST` `/resource/play`
+* [Pause the current video](https://github.com/kaist-webeng/testbed-resource-controller/wiki/%5BAPI%5D-Pause-the-current-video) : `POST` `/resource/pause`
+* [Stop the current video](https://github.com/kaist-webeng/testbed-resource-controller/wiki/%5BAPI%5D-Stop-the-current-video) : `POST` `/resource/stop`
 * [Play a new youtube video](https://github.com/kaist-webeng/testbed-resource-controller/wiki/%5BAPI%5D-Youtube-video) : `POST` `/resource/youtube`
 
 ## Events
