@@ -6,7 +6,7 @@
 
   * [Smart Blind](https://github.com/kaist-webeng/testbed-resource-controller/wiki/%5BAPI-List%5D-Smart-Blind)
   * [Hue Bulb](https://github.com/kaist-webeng/testbed-resource-controller/wiki/%5BAPI-List%5D-Hue-Bulb)
-  * Chrome Cast
+  * [Chromecast](https://github.com/kaist-webeng/testbed-resource-controller/wiki/%5BAPI-List%5D-Chromecast)  
   * [Air Purifier](https://github.com/kaist-webeng/testbed-resource-controller/wiki/%5BAPI-List%5D-Air-purifier)
   * [Switchbot](https://github.com/kaist-webeng/testbed-resource-controller/wiki/%5BAPI-List%5D-Switchbot)
 
